@@ -29,7 +29,7 @@ window.onload = function() {
     function run() {
         document.querySelector('.services-block').classList.add('motion')
     }
-    setTimeout(run, 1500)
+    setTimeout(run, 1700)
 }
 
 var swiper = new Swiper('.swiper-patient-slider', {
