@@ -24,3 +24,36 @@ fogging.addEventListener('click', () => {
     hamburger.classList.remove('hamburger-active');
     fogging.classList.remove('fogging-active');
 })
+
+window.onload = function() {
+    function run() {
+        document.querySelector('.services-block').classList.add('motion')
+    }
+    setTimeout(run, 1500)
+}
+
+var swiper = new Swiper('.swiper-patient-slider', {
+    slidesPerView: 4,
+    breakpoints: {
+        400: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          }
+    },
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+    speed: 400,
+    spaceBetween: 10
+  });
