@@ -48,6 +48,7 @@ header{
 			height: 100px;
 			padding:  0 10px;
 			box-sizing: border-box;
+			transition: .2s linear;
 			.header-list:nth-child(1){
 				list-style: none;
 				padding: 0;
@@ -162,6 +163,25 @@ header{
 			.hamburger-active{
 				transform: translateX(50px)
 			}
+		}
+	}
+}
+header .center-block nav.scroled-header .active{
+	transform: translate(-50%, 120px) !important;
+}
+header .center-block nav.scroled-header .hamburger{
+	transform: translateY(10px);
+}
+
+header .center-block .scroled-header{
+    position: fixed;
+    z-index: 9999;
+    height: 70px;
+	background: #5d5d5dab;
+	width: 100%;
+	.logo{
+		img{
+			width: 45px !important;
 		}
 	}
 }
@@ -303,6 +323,9 @@ header{
 	justify-content: center;
 	color: #ffffff;
 	margin: 70px 0;
+	transform: translateY(200px);
+	filter: opacity(0);
+	transition: .8s ease-in-out;
 	ul, li{
 		list-style: none;
 	}
@@ -328,6 +351,11 @@ header{
 			font-size: 10px;
 		}
 	}
+}
+
+.price .move{
+	transform: translateY(0);
+	filter: opacity(1);
 }
 
 footer{
@@ -421,6 +449,9 @@ footer{
 	.block-with-price .price-list{
 		width: 45%;
 		margin: 15px;
+	}
+	header .center-block .scroled-header{
+		width: inherit;
 	}
 
 }
