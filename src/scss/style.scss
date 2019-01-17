@@ -29,7 +29,7 @@ header{
 	.main-info{
 		width: 100%;
 		position: absolute;
-		top: 31%;
+		top: 200px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		color: #ffffff;
@@ -306,7 +306,7 @@ header .center-block .scroled-header{
 	position: relative;
 	background: #434345;
 	width: 100%;
-	margin: 50px 0;
+	margin: 50px 0 0 0;
 	.price{
 		padding: 40px 0;
 			h2{
@@ -432,7 +432,7 @@ header .center-block .scroled-header{
 		display: none;
 	}
 	header .main-info{
-			top: 33%;
+		top: 250px;;
 	}
 	header .center-block nav .header-list:nth-child(2){
 		width: auto;
@@ -501,7 +501,9 @@ header .center-block .scroled-header{
 			margin-right: 20px;
 		}
 	}
-
+	.deckription{
+		width: 60%;
+	}
 
 }
 
@@ -515,6 +517,9 @@ header .center-block .scroled-header{
 	.block-with-price .price-list{
 		width: 40%;
 		margin: 25px;
+	}
+	.deckription {
+		width: 75%;
 	}
 }
 @media (min-width:1200px) {

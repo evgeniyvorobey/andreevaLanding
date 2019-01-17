@@ -68,7 +68,7 @@ var swiper = new Swiper('.swiper-patient-slider', {
 
 
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-    animationTime = 400,
+    animationTime = 100,
     framesCount = 60;
 
 document.querySelectorAll('a[href*="#"]').forEach(function (item) {
@@ -82,9 +82,6 @@ document.querySelectorAll('a[href*="#"]').forEach(function (item) {
 
             if (scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
                 window.scrollBy(0, scrollBy);
-            } else {
-                window.scrollTo(0, coordY);
-                clearInterval(scroller);
             }
         }, animationTime / framesCount);
     });
