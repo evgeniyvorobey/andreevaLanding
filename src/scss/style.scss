@@ -276,6 +276,13 @@ header .center-block .scroled-header{
 	}
 }
 
+
+.swiper-pagination{
+	bottom: -20px !important;
+}
+.swiper-pagination-bullet{
+	background: #434345 !important;
+}
 .motion .center-block .item{
 	background: #ffffff71;
 	transform: translatey(0px);
