@@ -115,4 +115,24 @@ document.addEventListener('scroll', function() {
     }else{
         document.querySelector('.block-with-price').classList.remove('move');
     }
+
+
+    var doctor = document.querySelector('.doctor').getBoundingClientRect();
+
+    if ((doctor.top + 300) <= vievportHeight ) {
+        document.querySelector('.doctor-container').classList.add('move');
+    }else{
+        document.querySelector('.doctor-container').classList.remove('move');
+    }
 })
+
+
+function initialize() {     
+	var myLatlng = new google.maps.LatLng(-34.397, 150.644);
+	var myOptions = {
+		zoom: 8,
+		center: myLatlng,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+	var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
+}
