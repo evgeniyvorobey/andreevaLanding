@@ -20,7 +20,7 @@ body{
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: #c5c5c5a1;
+	background: #878787b3;
 	transition: .1s linear;
 	z-index: 5;
 }
@@ -67,16 +67,18 @@ header{
 				align-items: center;
 				padding: 15px 0;
 				margin: 0;
-				position: absolute;
+				position: fixed;
 				left: 50%;
 				transform: translate(-50%, -100%);
 				width: 250px;
-				height: 300px;
+				height: auto;
 				transition: .2s linear;
+				z-index: 10;
 				.header-list-item{
+					position: relative;
 					margin-bottom: 2px;
 				}
-				.header-list-link{
+				.header-list-link, .header-list-link-dont-close{
 					text-decoration: none;
 					color: #ffffff;
 					text-transform: uppercase;
@@ -86,6 +88,7 @@ header{
 					border-bottom: 1px solid #ffffff5e;
 					box-sizing: border-box;
 					transition: .2s linear;
+					cursor: pointer;
 				}
 			}
 			.active{
@@ -126,8 +129,8 @@ header{
 					}
 				}
 				.header-list-item{
-					padding: 15px 0;
-					.header-list-link{
+					padding: 12px 0;
+					.header-list-link, .header-list-link-dont-close{
 						color: #4c4c4c !important;
 					}
 				}
@@ -167,9 +170,9 @@ header{
 		}
 	}
 }
-header .center-block nav.scroled-header .active{
-	transform: translate(-50%, 120px) !important;
-}
+//header .center-block nav.scroled-header .active{
+//	transform: translate(-50%, 120px) !important;
+//}
 header .center-block nav.scroled-header .hamburger{
 	transform: translateY(10px);
 }
@@ -277,23 +280,20 @@ header .center-block .scroled-header{
 }
 
 
-.swiper-pagination{
-	bottom: -20px !important;
-}
 .swiper-pagination-bullet{
-	background: #434345 !important;
+	background: #ffdbeb!important;
 }
 .motion .center-block .item{
 	background: #ffffff71;
 	transform: translatey(0px);
 }
-.patient-slider{
-	overflow: hidden;
-}
 
 .patient-slider{
+	overflow: hidden;
+	min-height: 500px;
 	padding: 50px 0;
 	border-top: 1px solid #b0b0b05e;
+	border-bottom: 1px solid #b0b0b05e;
 	h2{
 		color: #4c4c4c;
 		text-align: center;
@@ -308,6 +308,17 @@ header .center-block .scroled-header{
 		width: 100%;
 	}
 }
+.d-none{
+	filter: opacity(0);
+	overflow: hidden;
+	height: 0px;
+}
+.d-none.active{
+	filter: opacity(1);
+	height: auto;
+	min-height: 380px;
+}
+
 
 .all-width{
 	position: relative;
@@ -412,7 +423,44 @@ header .center-block .scroled-header{
 	bottom: 50px !important;
 }
 
-
+.select-work-type{
+	overflow: hidden;
+	height: 0px;
+	filter: opacity(0);
+	transition: .2s ease-in-out;
+	.work-type-list{
+		display: flex;
+		flex-direction: column;
+		padding: 15px 0 0 0;
+		margin: 0;
+		list-style: none;
+		box-sizing: border-box;
+		a{
+			display: block;
+			width: 100%;
+			margin: 0;
+			border: none;
+			background: transparent;
+			cursor: pointer;
+			padding: 5px 0px;
+			text-align: center;
+			color: #4c4c4c;
+			text-decoration: none;
+			transition: .1s linear;
+			&:hover{
+				color: rgba(103, 103, 103, 0.72);
+			}
+		}
+	}
+}
+.select-work-type{
+	width: 100%;
+	top: 133%;
+}
+.select-work-type-active{
+	height: 150px;
+	filter: opacity(1);
+}
 
 
 
@@ -458,7 +506,7 @@ header .center-block .scroled-header{
 		.header-list-item{
 			margin-bottom: 2px;
 		}
-		.header-list-link{
+		.header-list-link, .header-list-link-dont-close{
 			text-decoration: none;
 			color: #ffffff;
 			text-transform: uppercase;
@@ -509,6 +557,21 @@ header .center-block .scroled-header{
 	}
 	.deckription{
 		width: 60%;
+	}
+	.select-work-type{
+		position: absolute;
+		ul{
+			width: 100px;
+			height: 100%;
+			button{
+				padding: 10px;
+			}
+		}
+	}
+	.select-work-type-active {
+		background: #fff;
+		height: 162px;
+		filter: opacity(1);
 	}
 
 }

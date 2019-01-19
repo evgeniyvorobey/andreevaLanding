@@ -33,6 +33,28 @@ document.querySelectorAll('.header-list-link').forEach(item => {
     })
 })
 
+closeAllSlider = () => {
+    document.querySelectorAll('.patient-slider div').forEach(item => {
+        item.classList.remove('active');
+    })
+}
+
+document.querySelectorAll('.header-category-link').forEach(item => {
+    item.addEventListener('click', function() {
+        closeAllSlider();
+        var open = `.${this.getAttribute('current-block')}`;
+        document.querySelector(open).classList.add('active');
+        nav.classList.remove('active');
+        hamburger.classList.remove('hamburger-active');
+        fogging.classList.remove('fogging-active');
+        document.querySelector('.select-work-type').classList.remove('select-work-type-active')
+    })
+})
+
+document.querySelector('.header-list-link-dont-close').addEventListener('click', () => {
+    document.querySelector('.select-work-type').classList.toggle('select-work-type-active');
+})
+
 window.onload = function () {
     function run() {
         document.querySelector('.services-block').classList.add('motion')
@@ -40,7 +62,7 @@ window.onload = function () {
     setTimeout(run, 1700)
 }
 
-var swiper = new Swiper('.swiper-patient-slider', {
+var swiper = new Swiper('.swiper-cleaning,.swiper-veneers,.swiper-restorations,.swiper-lips,.swiper-treatment', {
     slidesPerView: 4,
     breakpoints: {
         400: {
@@ -67,29 +89,31 @@ var swiper = new Swiper('.swiper-patient-slider', {
 });
 
 
-const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-    animationTime = 100,
-    framesCount = 60;
-
-document.querySelectorAll('a[href*="#"]').forEach(function (item) {
-    item.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top;
-
-        let scroller = setInterval(function () {
-            let scrollBy = coordY / framesCount;
-
-            if (scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
-                window.scrollBy(0, scrollBy);
-            } else {
-                window.scrollTo(0, coordY);
-                clearInterval(scroller);
+var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
+    V = .15;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+// for (var i = 0; i < linkNav.length; i++) {
+    linkNav.forEach(item => {
+    item.addEventListener('click', function(e) { //по клику на ссылку
+            e.preventDefault(); //отменяем стандартное поведение
+            var w = window.pageYOffset,  // производим прокрутка
+                hash = this.href.replace(/[^#]*(.*)/, '$1');  // к id элемента, к которому нужно перейти
+            t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
+                start = null;
+            requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
+            function step(time) {
+                if (start === null) start = time;
+                var progress = time - start,
+                    r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+                window.scrollTo(0,r);
+                if (r != w + t) {
+                    requestAnimationFrame(step)
+                } else {
+                    location.hash = hash  // URL с хэшем
+                }
             }
-        }, animationTime / framesCount);
-    });
-});
-
+        }, false);
+    })
+// }
 
 document.addEventListener('scroll', function() {
     var vievportHeight = window.innerHeight; // высота окна браузера
@@ -125,5 +149,12 @@ document.addEventListener('scroll', function() {
         document.querySelector('.doctor-container').classList.remove('move');
     }
 })
+
+document.querySelector('.for-mouse-event').addEventListener('mouseover', () => {
+    document.querySelector('.select-work-type').classList.add('select-work-type-active');
+} )
+document.querySelector('.for-mouse-event').addEventListener('mouseout', () => {
+    document.querySelector('.select-work-type').classList.remove('select-work-type-active');
+} )
 
 

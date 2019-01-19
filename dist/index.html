@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/png" href="img/logo.png" />
-  <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/swiper.min.css">
   <title>DentSpa</title>
@@ -15,7 +14,7 @@
 <body>
   <div class="fogging"></div>
   <header class="animated-bg page-title">
-    <div class="center-block">
+    <div class="center-block" id="top">
       <nav class="header-navigation-block center-block">
         <ul class="header-list">
           <li class="header-list-item logo"><a href="#top" class="header-list-link">
@@ -25,7 +24,28 @@
         <ul class="header-list dropdown-header">
           <button class="close-button"></button>
           <li class="header-list-item"><a href="#services" class="header-list-link">Services</a></li>
-          <li class="header-list-item"><a href="#our_work" class="header-list-link">Our work</a></li>
+          <li class="header-list-item for-mouse-event">
+            <a class="our-work header-list-link-dont-close">Our work</a>
+            <div class="select-work-type">
+              <ul class="work-type-list">
+                <li class="work-type-item">
+                  <a href="#our_work" current-block="cleaning" class="header-category-link">Cleaning</a>
+                </li>
+                <li class="work-type-item">
+                  <a href="#our_work" current-block="veneers" class="header-category-link">Veneers</a>
+                </li>
+                <li class="work-type-item">
+                  <a href="#our_work" current-block="restorations" class="header-category-link">Restorations</a>
+                </li>
+                <li class="work-type-item">
+                  <a href="#our_work" current-block="lips" class="header-category-link">Lips</a>
+                </li>
+                <li class="work-type-item">
+                  <a href="#our_work" current-block="treatment" class="header-category-link">Treatment</a>
+                </li>
+              </ul>
+            </div>
+          </li>
           <li class="header-list-item"><a href="#about-us" class="header-list-link">About Us</a></li>
           <li class="header-list-item"><a href="#prices" class="header-list-link">Prices</a></li>
           <li class="header-list-item"><a href="#contact-us" class="header-list-link">Contact Us</a></li>
@@ -70,27 +90,120 @@
       </div>
     </div>
     <div id="our_work" class="center-block patient-slider">
-      <h2>Patients are glad that they are our patients</h2>
-      <div class="swiper-patient-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+      <div class="cleaning d-none active">
+        <h2>Cleaning</h2>
+        <div class="swiper-patient-slider swiper-cleaning">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
-          </div>
+          <div class="swiper-pagination"></div>
         </div>
-
-        <div class="swiper-pagination"></div>
+      </div>
+      <div class="veneers d-none ">
+        <h2>Veneers</h2>
+        <div class="swiper-patient-slider swiper-veneers">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="restorations d-none ">
+        <h2>Restorations</h2>
+        <div class="swiper-patient-slider swiper-restorations">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="lips d-none ">
+        <h2>Lips</h2>
+        <div class="swiper-patient-slider swiper-lips">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="treatment d-none ">
+        <h2>Treatment</h2>
+        <div class="swiper-patient-slider swiper-treatment">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider/31680620_205834756695339_7350436360706064384_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/34689833_410328456109223_5765516015991521280_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/46538784_325225278203389_2346427176778809145_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47689916_1102961269891004_3328818791549930259_n.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider/47693656_2291730454192403_6461030226417399849_n.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </div>
     </div>
