@@ -1,3 +1,5 @@
+// import LazyLoad from "vanilla-lazyload";
+
 
 var hamburger = document.querySelector('.hamburger');
 
@@ -51,7 +53,8 @@ document.querySelectorAll('.header-category-link').forEach(item => {
     })
 })
 
-document.querySelector('.header-list-link-dont-close').addEventListener('click', () => {
+document.querySelector('.header-list-link-dont-close').addEventListener('click', e => {
+    e.preventDefault();
     document.querySelector('.select-work-type').classList.toggle('select-work-type-active');
 })
 
@@ -59,7 +62,7 @@ window.onload = function () {
     function run() {
         document.querySelector('.services-block').classList.add('motion')
     }
-    setTimeout(run, 1700)
+    setTimeout(run, 1500)
 }
 
 var swiper = new Swiper('.swiper-cleaning,.swiper-veneers,.swiper-restorations,.swiper-lips,.swiper-treatment', {
@@ -149,12 +152,16 @@ document.addEventListener('scroll', function() {
         document.querySelector('.doctor-container').classList.remove('move');
     }
 })
+//
+// document.querySelector('.for-mouse-event').addEventListener('mouseover', () => {
+//     document.querySelector('.select-work-type').classList.add('select-work-type-active');
+// } )
+// document.querySelector('.for-mouse-event').addEventListener('mouseout', () => {
+//     document.querySelector('.select-work-type').classList.remove('select-work-type-active');
+// } )
 
-document.querySelector('.for-mouse-event').addEventListener('mouseover', () => {
-    document.querySelector('.select-work-type').classList.add('select-work-type-active');
-} )
-document.querySelector('.for-mouse-event').addEventListener('mouseout', () => {
-    document.querySelector('.select-work-type').classList.remove('select-work-type-active');
-} )
+var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy"
+});
 
 
