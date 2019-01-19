@@ -39,17 +39,36 @@ closeAllSlider = () => {
     document.querySelectorAll('.patient-slider div').forEach(item => {
         item.classList.remove('active');
     })
+    document.querySelectorAll('.list-category-works li').forEach(item => {
+        item.classList.remove('work-item-active');
+    })
 }
 
 document.querySelectorAll('.header-category-link').forEach(item => {
     item.addEventListener('click', function() {
         closeAllSlider();
         var open = `.${this.getAttribute('current-block')}`;
+        var attrActive = `.list-category-works [current-block="${this.getAttribute('current-block')}"]`;
+
+        document.querySelector(attrActive).classList.add('work-item-active');
+
         document.querySelector(open).classList.add('active');
         nav.classList.remove('active');
         hamburger.classList.remove('hamburger-active');
         fogging.classList.remove('fogging-active');
         document.querySelector('.select-work-type').classList.remove('select-work-type-active')
+    })
+})
+
+document.querySelectorAll('.list-category-works li').forEach(item => {
+    item.addEventListener('click', function() {
+        closeAllSlider();
+        var open = `.${this.getAttribute('current-block')}`;
+        var attrActive = `.list-category-works [current-block="${this.getAttribute('current-block')}"]`;
+
+        document.querySelector(attrActive).classList.add('work-item-active');
+
+        document.querySelector(open).classList.add('active');
     })
 })
 
