@@ -72,10 +72,10 @@ document.querySelectorAll('.list-category-works li').forEach(item => {
     })
 })
 
-document.querySelector('.header-list-link-dont-close').addEventListener('click', e => {
-    e.preventDefault();
-    document.querySelector('.select-work-type').classList.toggle('select-work-type-active');
-})
+// document.querySelector('.header-list-link-dont-close').addEventListener('click', e => {
+//     e.preventDefault();
+//     document.querySelector('.select-work-type').classList.toggle('select-work-type-active');
+// })
 
 window.onload = function () {
     function run() {
@@ -112,7 +112,7 @@ var swiper = new Swiper('.swiper-cleaning,.swiper-veneers,.swiper-restorations,.
 
 
 var linkNav = document.querySelectorAll('[href^="#"]'), //выбираем все ссылки к якорю на странице
-    V = .15;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+    V = .2;  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
 // for (var i = 0; i < linkNav.length; i++) {
     linkNav.forEach(item => {
     item.addEventListener('click', function(e) { //по клику на ссылку
@@ -171,13 +171,6 @@ document.addEventListener('scroll', function() {
         document.querySelector('.doctor-container').classList.remove('move');
     }
 })
-//
-// document.querySelector('.for-mouse-event').addEventListener('mouseover', () => {
-//     document.querySelector('.select-work-type').classList.add('select-work-type-active');
-// } )
-// document.querySelector('.for-mouse-event').addEventListener('mouseout', () => {
-//     document.querySelector('.select-work-type').classList.remove('select-work-type-active');
-// } )
 
 var myLazyLoad = new LazyLoad({
     elements_selector: ".lazy"
