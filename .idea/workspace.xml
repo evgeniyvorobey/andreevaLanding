@@ -3,7 +3,98 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f2e3f7-01c4-458b-af2c-166a98f3e55a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/_bg-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/_bg-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg-bottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg-bottom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bg-top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/bg-top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/doc-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/doc2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/doc3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider-photo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider-photo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/cleaning/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/cleaning/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/lips/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/lips/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/restoration/7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/restoration/7.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider/veneers/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider/veneers/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/001-smile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/svg/001-smile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/002-number-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/svg/002-number-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/003-happy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/svg/003-happy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/additions/lazyload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/additions/lazyload.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/additions/swiper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/additions/swiper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/_bg-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/_bg-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg-bottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg-bottom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg-top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bg-top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider-photo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider-photo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/cleaning/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/cleaning/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/lips/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/restoration/7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/restoration/7.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slider/veneers/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider/veneers/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg/001-smile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg/001-smile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg/002-number-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg/002-number-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/svg/003-happy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg/003-happy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,54 +107,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="187" column="215" selection-start-line="187" selection-start-column="215" selection-end-line="187" selection-end-column="215" />
+            <state relative-caret-position="352">
+              <caret line="260" column="44" selection-start-line="260" selection-start-column="44" selection-end-line="260" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#!!top" />
-                <element signature="n#div#1;n#main#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#main#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#main#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+        <entry file="file://$PROJECT_DIR$/src/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10680">
-              <caret line="534" column="35" selection-start-line="534" selection-start-column="35" selection-end-line="534" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="86" column="141" selection-start-line="86" selection-start-column="132" selection-end-line="86" selection-end-column="141" />
             </state>
           </provider>
         </entry>
@@ -94,6 +155,7 @@
       <find>select-work-type-active</find>
       <find>work-item</find>
       <find>center-block</find>
+      <find>restor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,17 +165,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/html/includes/footer.html" />
-        <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/html/includes/header.html" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/html/views/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="184" />
     <option name="y" value="23" />
-    <option name="width" value="1496" />
+    <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectView">
@@ -144,40 +205,26 @@
               <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="slider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
               <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="additions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="andreevaLanding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="andreevaLanding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="additions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,18 +266,22 @@
       <workItem from="1547897908396" duration="14667000" />
       <workItem from="1548081067938" duration="8000" />
       <workItem from="1548092688104" duration="9453000" />
-      <workItem from="1548108857216" duration="29000" />
+      <workItem from="1548108857216" duration="87000" />
+      <workItem from="1548147220261" duration="41000" />
+      <workItem from="1548187030031" duration="62000" />
+      <workItem from="1548187218169" duration="41000" />
+      <workItem from="1548274807430" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38938000" />
+    <option name="totallyTimeSpent" value="41504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="184" y="23" width="1496" height="980" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22033899" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19590114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -244,7 +295,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21621622" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21621622" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,13 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" lean-forward="true" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -296,15 +340,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="86" column="141" selection-start-line="86" selection-start-column="132" selection-end-line="86" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="187" column="215" selection-start-line="187" selection-start-column="215" selection-end-line="187" selection-end-column="215" />
+        <state relative-caret-position="352">
+          <caret line="260" column="44" selection-start-line="260" selection-start-column="44" selection-end-line="260" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#1;n#main#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#main#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>

@@ -84,7 +84,7 @@ window.onload = function () {
     setTimeout(run, 1500)
 }
 
-var swiper = new Swiper('.swiper-cleaning,.swiper-veneers,.swiper-restorations,.swiper-lips,.swiper-treatment', {
+var swiper = new Swiper('.swiper-cleaning,.swiper-veneers,.swiper-restorations,.swiper-lips,.swiper-treatment,.swiper-botox,.swiper-bleaching', {
     slidesPerView: 4,
     breakpoints: {
         400: {
