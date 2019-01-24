@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f2e3f7-01c4-458b-af2c-166a98f3e55a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/html/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/views/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d3f2e3f7-01c4-458b-af2c-166a98f3e55a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,13 +17,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="127" column="78" selection-start-line="127" selection-start-column="78" selection-end-line="127" selection-end-column="78" />
+            <state relative-caret-position="567">
+              <caret line="134" column="30" lean-forward="true" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#main#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#1;n#main#0;n#!!top" />
                 <element signature="n#div#4;n#div#0;n#div#1;n#main#0;n#!!top" />
               </folding>
@@ -183,12 +180,12 @@
       <workItem from="1548147220261" duration="41000" />
       <workItem from="1548187030031" duration="62000" />
       <workItem from="1548187218169" duration="41000" />
-      <workItem from="1548274807430" duration="3272000" />
+      <workItem from="1548274807430" duration="3895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42412000" />
+    <option name="totallyTimeSpent" value="43035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="980" extended-state="0" />
@@ -208,7 +205,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17004505" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17004505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,13 +259,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="127" column="78" selection-start-line="127" selection-start-column="78" selection-end-line="127" selection-end-column="78" />
+        <state relative-caret-position="567">
+          <caret line="134" column="30" lean-forward="true" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
           <folding>
             <element signature="n#div#0;n#main#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#main#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#main#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#1;n#main#0;n#!!top" />
             <element signature="n#div#4;n#div#0;n#div#1;n#main#0;n#!!top" />
           </folding>
